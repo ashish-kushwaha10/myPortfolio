@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --nav-bg: #212121;
+  --nav-logo: #fff;
+  --nav-link: #9e9e9e;
+  --nav-link-hover: #fff;
+  --nav-border: #424242;
+  --nav-btn: #424242;
+}
+
+body {
+  background-color: #424242;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+.text-white-center{
+    text-align: center;
+    color: white;
+}
+
+.nav {
+  display: flex;
+
+  justify-content: space-between;
+  font-family: Montserrat, sans-serif;
+  background-color: var(--nav-bg);
+  padding: 20px 30px;
+  color: var(--nav-color);
+  margin-bottom: 1em;
+  border-bottom: var(--nav-border) solid 1px;
+}
+
+.nav-logo {
+  font-weight: bold;
+  font-size: 1.1em;
+  color: var(--nav-logo);
+  text-decoration: none;
+}
+
+.nav-list {
+  list-style: none;
+}
+
+.nav-list li {
+  display: inline-block;
+  margin-left:2rem;
+  margin-right: 2rem;
+}
+@media screen and (max-width:700px) {
+    .nav-list li {
+       
+        margin-left:.5rem;
+        margin-right: .5rem;
+      }
+      #home{
+        display: none;
+      }
+}
+
+.nav-list a {
+  color: var(--nav-link);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-list a:hover {
+  color: var(--nav-link-hover);
+}
+
+
+
+.img-fluid{
+    width: 100%;
+    height: auto;
+}
+
+.project{
+    display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 15px 0;
+}
+.project>div{
+   
+  padding: 30px 20px;
+  background: rgba(30, 6, 250, 0.1);
+  max-width: 320px;
+ height: auto;
+  margin: 30px;
+  color: white;
+ text-align: center;
+
+}
+.live-btn{
+    border: 2px solid blue;
+    padding: 10px 20px;
+    margin-right: 2px;
+    color: white;
+    border-radius: 20px;
+    background-color: #9e9e9e;
+}
+.source-btn{
+    border: 2px solid blue;
+    padding: 10px 20px;
+    margin-left: 2px;
+    color: white;
+    border-radius: 20px;
+    background-color: #9e9e9e;
+}
+
+
+
