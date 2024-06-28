@@ -151,7 +151,14 @@ body {
   margin: 2.5rem auto;
   text-align: center;
 }
-
+.container-text-start{
+  max-width: 950px;
+  width: 100%;
+  margin: auto;
+  background-color: rgba(26, 39, 228, 0.228);
+  padding: 2.5rem;
+margin: 2.5rem auto;
+}
 
 
 .section-para{
